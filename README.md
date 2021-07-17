@@ -55,3 +55,24 @@ labels).
 d. Report Accuracy for the Multiclass LDA on the face recognition
 dataset.
 e. Compare the results to PCA results.
+
+6. Classifier Tuning (20 Points)
+a. Set the number of neighbors in the K-NN classifier to 1,3,5,7.
+b. Tie breaking at your preferred strategy.
+c. Plot (or tabulate) the performance measure (accuracy) against the K
+value. This is to be done for PCA and LDA as well.
+7. Compare vs Non-Face Images (15 Points)
+a. Download non-face images and make them of the same size 92x112.
+and try to solve the classification problem faces vs. Non-faces.
+i. Show failure and success cases.
+ii. How many dominant eigenvectors will you use for the LDA
+solution?
+iii. Plot the accuracy vs the number of non-faces images while fixing
+the number of face images.
+iv. Criticize the accuracy measure for large numbers of non-faces
+images in the training data.
+8. Bonus (5 Points)
+a. [5 points] Use different Training and Test splits. Change the number of
+instances per subject to be 7 and keep 3 instances per subject for testing.
+compare the results you have with the ones you got earlier with 50%
+split.
